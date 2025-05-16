@@ -59,7 +59,7 @@ A dedicated agent monitors the algorithm’s performance metrics, detects signs 
 
 Trading is restricted to a two-hour time window (14:30–16:30 Spain time), strategically chosen to capture one hour before and one hour after the US market open. This period provides high liquidity, volatility, and reliable price action patterns. **This temporal window also helps concentrate the intelligence of the AI agents on the most relevant part of the session** 
 
-## Machine Learning Roadmap for AI Agents
+## 🧬 Machine Learning Roadmap for AI Agents
 
 The algorithmic system will progressively integrate machine learning (ML) capabilities across its agents to enhance performance, adaptability, and robustness.
 
