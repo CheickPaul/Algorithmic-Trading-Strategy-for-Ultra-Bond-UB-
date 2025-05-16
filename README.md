@@ -5,7 +5,7 @@
 
 ## Overview
 This project aims to develop a high performance trading algorithm designed for the Ultra Bond (UB) futures market. The strategyis based on Smart Money Concepts (SMC), volume spikes, time-based execution windows, economic news filtering basics elements that I have already used for passing rigorous propfirm challenge. 
-The core innovation lies in the integration of multiple AI agents, each responsible of replicating key elements of discretionary trading. The goal is to progressively evolve the systemfrom a semi-automated assistant to a fully autonomous algorithm.
+The core innovation lies in the integration of multiple AI agents, each responsible of replicating key elements of discretionary trading. The goal is to progressively evolve the systemfrom a semi automated assistant to a fully autonomous algorithm.
 This repository documents the design, architecture, agent roles and the logic of the system. The algorithm is under **under active development** and will be refined in progressive stages.
 
 ## AI Agents and Their Interactions
