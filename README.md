@@ -1,6 +1,8 @@
-<div align="center">
+<div align="center"> 
+  
 # Algorithmic-Trading-Strategy-for-Ultra-Bond-UB-
 </div>
+
 ## Overview
 This project aims to develop a high performance trading algorithm designed for the Ultra Bond (UB) futures market. The strategyis based on Smart Money Concepts (SMC), volume spikes, time-based execution windows, economic news filtering basics elements that I have already used for passing rigorous propfirm challenge. 
 The core innovation lies in the integration of multiple AI agents, each responsible of replicating key elements of discretionary trading. The goal is to pprogressively evolve the systemfrom a semi-automated assistant to a fully autonomous algorithm.
