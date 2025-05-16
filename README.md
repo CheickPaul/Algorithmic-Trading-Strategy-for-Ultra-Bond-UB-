@@ -64,11 +64,9 @@ Trading is restricted to a two-hour time window (14:30–16:30 Spain time), stra
 ## 🤝 Contribution & Contact
 
 Contributions are currently not accepted to maintain confidentiality.  
-
 For collaboration inquiries (teamwork or partnerships) or more information, please contact:  
 
 **Cheick Paul Gbon Coulibaly**  
-
 Email: cheick.coulibaly@stonectp.com
 
 
