@@ -8,28 +8,19 @@ This project aims to develop a high performance trading algorithm designed for t
 The core innovation lies in the integration of multiple AI agents, each responsible of replicating key elements of discretionary trading. The goal is to pprogressively evolve the systemfrom a semi-automated assistant to a fully autonomous algorithm.
 This repository documents the design, architecture, agent roles and the logic of the system. The algorithm is under **under active development** and will be refined in progressive stages.
 
-## 🔹 Core AI Agents and Their Interactions
+## AI Agents and Their Interactions
 
+### 🔹 Core AI Agents
 - **SMC Agent:** Identifies key supply and demand zones, liquidity pools, and smart money footprints.  
-
 - **Volume Spike Agent:** Detects abnormal volume peaks signaling potential reversals or breakouts.  
-
 - **News Monitoring Agent:** Filters out trading during high-impact economic events to reduce slippage risk.  
-
 - **Order Flow Agent:** Analyzes real-time order book dynamics to enhance entry and exit precision.  
-
 - **Execution Agent:** Responsible for timely, efficient order placement and management to minimize slippage and execution risk.  
 
-
-
 ### 🔹 Additional Intelligent Agents
-
 - **Position Sizing Agent:** Applies game-theory-based probability calculations to optimize position sizes.  
-
 - **Noise Filtering Agent:** Utilizes statistical filtering, signal processing, multi-timeframe analysis, and machine learning to reduce market noise.  
-
 - **Market Regime Detector Agent:** Classifies market conditions to ensure robustness and adaptability of the strategy.  
-
 
 
 ### 🔄  Agent Interaction Overview
@@ -66,7 +57,7 @@ A dedicated agent monitors the algorithm’s performance metrics, detects signs 
 
 ## ⏱️ Advantage of Defined Trading Time Window
 
-Trading is restricted to a two-hour time window (14:30–16:30 Spain time), strategically chosen to capture one hour before and one hour after the US market open. This period provides high liquidity, volatility, and reliable price action patterns, enhancing execution efficiency and reducing risk.
+Trading is restricted to a two-hour time window (14:30–16:30 Spain time), strategically chosen to capture one hour before and one hour after the US market open. This period provides high liquidity, volatility, and reliable price action patterns. **This temporal window also helps concentrate the intelligence of the AI agents on the most relevant part of the session** 
 
 
 
