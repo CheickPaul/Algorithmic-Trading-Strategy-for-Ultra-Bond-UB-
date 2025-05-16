@@ -5,7 +5,7 @@ This project aims to develop a high performance trading algorithm designed for t
 The core innovation lies in the integration of multiple AI agents, each responsible of replicating key elements of discretionary trading. The goal is to pprogressively evolve the systemfrom a semi-automated assistant to a fully autonomous algorithm.
 This repository documents the design, architecture, agent roles and the logic of the system. The algorithm is under **under active development** and will be refined in progressive stages.
 
-## Core AI Agents and Their Interactions
+## 🔹 Core AI Agents and Their Interactions
 
 - **SMC Agent:** Identifies key supply and demand zones, liquidity pools, and smart money footprints.  
 
@@ -19,7 +19,7 @@ This repository documents the design, architecture, agent roles and the logic of
 
 
 
-### Additional Intelligent Agents
+### 🔹 Additional Intelligent Agents
 
 - **Position Sizing Agent:** Applies game-theory-based probability calculations to optimize position sizes.  
 
@@ -29,13 +29,13 @@ This repository documents the design, architecture, agent roles and the logic of
 
 
 
-### Agent Interaction Overview
+### 🔄  Agent Interaction Overview
 
 The agents continuously share data and insights. For example, the Order Flow Agent refines signals from the SMC and Volume Agents, while the Market Regime Detector adjusts parameters used by all agents depending on current market conditions. The Execution Agent acts on combined signals ensuring smooth order management, and the Noise Filtering Agent helps reduce false signals before decisions are made.
 
 
 
-## Development Stages
+## 🛠 Development Stages
 
 1. **Semi-Automatic Version:** Initial implementation with manual trade execution and basic agent support.  
 
@@ -49,25 +49,25 @@ The agents continuously share data and insights. For example, the Order Flow Age
 
 
 
-## Pattern Recognition Agents
+## 🧩 Pattern Recognition Agents
 
 Specialized AI modules trained to detect short-term recurring price and volume patterns, order flow signatures, and liquidity shifts to anticipate probable market moves in real-time.
 
 
 
-## Overfitting and Performance Agent
+## 🛡️ Overfitting and Performance Agent
 
 A dedicated agent monitors the algorithm’s performance metrics, detects signs of overfitting during training and live deployment, and implements cross-validation and regularization techniques to maintain model robustness.
 
 
 
-## Advantage of Defined Trading Time Window
+## ⏱️ Advantage of Defined Trading Time Window
 
 Trading is restricted to a two-hour time window (14:30–16:30 Spain time), strategically chosen to capture one hour before and one hour after the US market open. This period provides high liquidity, volatility, and reliable price action patterns, enhancing execution efficiency and reducing risk.
 
 
 
-## Contribution & Contact
+## 🤝 Contribution & Contact
 
 Contributions are currently not accepted to maintain confidentiality.  
 
